@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF78E643217D71EA002A1409 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78E642217D71EA002A1409 /* AppDelegate.swift */; };
+		BF78E645217D71EA002A1409 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78E644217D71EA002A1409 /* ViewController.swift */; };
+		BF78E648217D71EA002A1409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF78E646217D71EA002A1409 /* Main.storyboard */; };
+		BF78E64A217D71EA002A1409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF78E649217D71EA002A1409 /* Assets.xcassets */; };
+		BF78E64D217D71EA002A1409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF78E64B217D71EA002A1409 /* LaunchScreen.storyboard */; };
+		BF78E658217D71EB002A1409 /* Stocks_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78E657217D71EB002A1409 /* Stocks_GameTests.swift */; };
+		BF78E663217D71EB002A1409 /* Stocks_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78E662217D71EB002A1409 /* Stocks_GameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF78E654217D71EB002A1409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF78E637217D71EA002A1409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF78E63E217D71EA002A1409;
+			remoteInfo = "Stocks-Game";
+		};
+		BF78E65F217D71EB002A1409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF78E637217D71EA002A1409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF78E63E217D71EA002A1409;
+			remoteInfo = "Stocks-Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF78E63F217D71EA002A1409 /* Stocks-Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stocks-Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF78E642217D71EA002A1409 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF78E644217D71EA002A1409 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF78E647217D71EA002A1409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF78E649217D71EA002A1409 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF78E64C217D71EA002A1409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF78E64E217D71EA002A1409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF78E653217D71EB002A1409 /* Stocks-GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stocks-GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF78E657217D71EB002A1409 /* Stocks_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks_GameTests.swift; sourceTree = "<group>"; };
+		BF78E659217D71EB002A1409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF78E65E217D71EB002A1409 /* Stocks-GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stocks-GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF78E662217D71EB002A1409 /* Stocks_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks_GameUITests.swift; sourceTree = "<group>"; };
+		BF78E664217D71EB002A1409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF78E63C217D71EA002A1409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF78E650217D71EB002A1409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF78E65B217D71EB002A1409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF78E636217D71EA002A1409 = {
+			isa = PBXGroup;
+			children = (
+				BF78E641217D71EA002A1409 /* Stocks-Game */,
+				BF78E656217D71EB002A1409 /* Stocks-GameTests */,
+				BF78E661217D71EB002A1409 /* Stocks-GameUITests */,
+				BF78E640217D71EA002A1409 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF78E640217D71EA002A1409 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF78E63F217D71EA002A1409 /* Stocks-Game.app */,
+				BF78E653217D71EB002A1409 /* Stocks-GameTests.xctest */,
+				BF78E65E217D71EB002A1409 /* Stocks-GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF78E641217D71EA002A1409 /* Stocks-Game */ = {
+			isa = PBXGroup;
+			children = (
+				BF78E642217D71EA002A1409 /* AppDelegate.swift */,
+				BF78E644217D71EA002A1409 /* ViewController.swift */,
+				BF78E646217D71EA002A1409 /* Main.storyboard */,
+				BF78E649217D71EA002A1409 /* Assets.xcassets */,
+				BF78E64B217D71EA002A1409 /* LaunchScreen.storyboard */,
+				BF78E64E217D71EA002A1409 /* Info.plist */,
+			);
+			path = "Stocks-Game";
+			sourceTree = "<group>";
+		};
+		BF78E656217D71EB002A1409 /* Stocks-GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF78E657217D71EB002A1409 /* Stocks_GameTests.swift */,
+				BF78E659217D71EB002A1409 /* Info.plist */,
+			);
+			path = "Stocks-GameTests";
+			sourceTree = "<group>";
+		};
+		BF78E661217D71EB002A1409 /* Stocks-GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF78E662217D71EB002A1409 /* Stocks_GameUITests.swift */,
+				BF78E664217D71EB002A1409 /* Info.plist */,
+			);
+			path = "Stocks-GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF78E63E217D71EA002A1409 /* Stocks-Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF78E667217D71EB002A1409 /* Build configuration list for PBXNativeTarget "Stocks-Game" */;
+			buildPhases = (
+				BF78E63B217D71EA002A1409 /* Sources */,
+				BF78E63C217D71EA002A1409 /* Frameworks */,
+				BF78E63D217D71EA002A1409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stocks-Game";
+			productName = "Stocks-Game";
+			productReference = BF78E63F217D71EA002A1409 /* Stocks-Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF78E652217D71EB002A1409 /* Stocks-GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF78E66A217D71EB002A1409 /* Build configuration list for PBXNativeTarget "Stocks-GameTests" */;
+			buildPhases = (
+				BF78E64F217D71EB002A1409 /* Sources */,
+				BF78E650217D71EB002A1409 /* Frameworks */,
+				BF78E651217D71EB002A1409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF78E655217D71EB002A1409 /* PBXTargetDependency */,
+			);
+			name = "Stocks-GameTests";
+			productName = "Stocks-GameTests";
+			productReference = BF78E653217D71EB002A1409 /* Stocks-GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF78E65D217D71EB002A1409 /* Stocks-GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF78E66D217D71EB002A1409 /* Build configuration list for PBXNativeTarget "Stocks-GameUITests" */;
+			buildPhases = (
+				BF78E65A217D71EB002A1409 /* Sources */,
+				BF78E65B217D71EB002A1409 /* Frameworks */,
+				BF78E65C217D71EB002A1409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF78E660217D71EB002A1409 /* PBXTargetDependency */,
+			);
+			name = "Stocks-GameUITests";
+			productName = "Stocks-GameUITests";
+			productReference = BF78E65E217D71EB002A1409 /* Stocks-GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF78E637217D71EA002A1409 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Fatih Ak";
+				TargetAttributes = {
+					BF78E63E217D71EA002A1409 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					BF78E652217D71EB002A1409 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BF78E63E217D71EA002A1409;
+					};
+					BF78E65D217D71EB002A1409 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BF78E63E217D71EA002A1409;
+					};
+				};
+			};
+			buildConfigurationList = BF78E63A217D71EA002A1409 /* Build configuration list for PBXProject "Stocks-Game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF78E636217D71EA002A1409;
+			productRefGroup = BF78E640217D71EA002A1409 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF78E63E217D71EA002A1409 /* Stocks-Game */,
+				BF78E652217D71EB002A1409 /* Stocks-GameTests */,
+				BF78E65D217D71EB002A1409 /* Stocks-GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF78E63D217D71EA002A1409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF78E64D217D71EA002A1409 /* LaunchScreen.storyboard in Resources */,
+				BF78E64A217D71EA002A1409 /* Assets.xcassets in Resources */,
+				BF78E648217D71EA002A1409 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF78E651217D71EB002A1409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF78E65C217D71EB002A1409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF78E63B217D71EA002A1409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF78E645217D71EA002A1409 /* ViewController.swift in Sources */,
+				BF78E643217D71EA002A1409 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF78E64F217D71EB002A1409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF78E658217D71EB002A1409 /* Stocks_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF78E65A217D71EB002A1409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF78E663217D71EB002A1409 /* Stocks_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF78E655217D71EB002A1409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF78E63E217D71EA002A1409 /* Stocks-Game */;
+			targetProxy = BF78E654217D71EB002A1409 /* PBXContainerItemProxy */;
+		};
+		BF78E660217D71EB002A1409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF78E63E217D71EA002A1409 /* Stocks-Game */;
+			targetProxy = BF78E65F217D71EB002A1409 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF78E646217D71EA002A1409 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF78E647217D71EA002A1409 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF78E64B217D71EA002A1409 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF78E64C217D71EA002A1409 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF78E665217D71EB002A1409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF78E666217D71EB002A1409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF78E668217D71EB002A1409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stocks-Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ak.Stocks-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF78E669217D71EB002A1409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stocks-Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ak.Stocks-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF78E66B217D71EB002A1409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stocks-GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ak.Stocks-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stocks-Game.app/Stocks-Game";
+			};
+			name = Debug;
+		};
+		BF78E66C217D71EB002A1409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stocks-GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ak.Stocks-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stocks-Game.app/Stocks-Game";
+			};
+			name = Release;
+		};
+		BF78E66E217D71EB002A1409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stocks-GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ak.Stocks-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stocks-Game";
+			};
+			name = Debug;
+		};
+		BF78E66F217D71EB002A1409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stocks-GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ak.Stocks-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stocks-Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF78E63A217D71EA002A1409 /* Build configuration list for PBXProject "Stocks-Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF78E665217D71EB002A1409 /* Debug */,
+				BF78E666217D71EB002A1409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF78E667217D71EB002A1409 /* Build configuration list for PBXNativeTarget "Stocks-Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF78E668217D71EB002A1409 /* Debug */,
+				BF78E669217D71EB002A1409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF78E66A217D71EB002A1409 /* Build configuration list for PBXNativeTarget "Stocks-GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF78E66B217D71EB002A1409 /* Debug */,
+				BF78E66C217D71EB002A1409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF78E66D217D71EB002A1409 /* Build configuration list for PBXNativeTarget "Stocks-GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF78E66E217D71EB002A1409 /* Debug */,
+				BF78E66F217D71EB002A1409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF78E637217D71EA002A1409 /* Project object */;
+}
