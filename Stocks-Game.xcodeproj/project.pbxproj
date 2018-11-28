@@ -7,13 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		874B7AAE31FFC609E6B34353 /* Pods_Stocks_Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CC465EC4B4B3CCE6CD043B /* Pods_Stocks_Game.framework */; };
+		BF0E21BA218EC23300553490 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0E21B9218EC23300553490 /* DataViewController.swift */; };
+		BF0E21BE218F696D00553490 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0E21BD218F696D00553490 /* NewsViewController.swift */; };
+		BF338C26219A5E62000DFB23 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF338C25219A5E62000DFB23 /* LogInViewController.swift */; };
+		BF59614121ADC11600855A91 /* portfolioIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF59614021ADC11600855A91 /* portfolioIcon.png */; };
+		BF59614321ADC7CA00855A91 /* growthIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF59614221ADC7CA00855A91 /* growthIcon.png */; };
+		BF59614821ADCA7D00855A91 /* tropyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF59614721ADCA7C00855A91 /* tropyIcon.png */; };
+		BF59614C21AE208200855A91 /* LeaderBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59614B21AE208200855A91 /* LeaderBoardViewController.swift */; };
 		BF78E643217D71EA002A1409 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78E642217D71EA002A1409 /* AppDelegate.swift */; };
-		BF78E645217D71EA002A1409 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78E644217D71EA002A1409 /* ViewController.swift */; };
 		BF78E648217D71EA002A1409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF78E646217D71EA002A1409 /* Main.storyboard */; };
 		BF78E64A217D71EA002A1409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF78E649217D71EA002A1409 /* Assets.xcassets */; };
 		BF78E64D217D71EA002A1409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF78E64B217D71EA002A1409 /* LaunchScreen.storyboard */; };
 		BF78E658217D71EB002A1409 /* Stocks_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78E657217D71EB002A1409 /* Stocks_GameTests.swift */; };
 		BF78E663217D71EB002A1409 /* Stocks_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78E662217D71EB002A1409 /* Stocks_GameUITests.swift */; };
+		BF78E671217D7478002A1409 /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78E670217D7478002A1409 /* StockViewController.swift */; };
+		BF80D9EE21AC803E001B30E1 /* decrease.png in Resources */ = {isa = PBXBuildFile; fileRef = BF80D9EC21AC803D001B30E1 /* decrease.png */; };
+		BF80D9F121AC8350001B30E1 /* increase.png in Resources */ = {isa = PBXBuildFile; fileRef = BF80D9F021AC8350001B30E1 /* increase.png */; };
+		BF853A1121926DFD0061D819 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF853A1021926DFD0061D819 /* ArticleViewController.swift */; };
+		BF853A1721941DC90061D819 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF853A1621941DC90061D819 /* GoogleService-Info.plist */; };
+		BF904771219A86B10027C810 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF904770219A86B10027C810 /* SignUpViewController.swift */; };
+		BF904775219BAC9E0027C810 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF904774219BAC9E0027C810 /* BuyViewController.swift */; };
+		BF904777219D50CB0027C810 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF904776219D50CB0027C810 /* CurrentUser.swift */; };
+		BF954646219E7CBF0035AF18 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF954645219E7CBF0035AF18 /* Util.swift */; };
+		BF954648219EC47C0035AF18 /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF954647219EC47C0035AF18 /* PortfolioViewController.swift */; };
+		BF95464C21A1DED90035AF18 /* PortfolioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF95464B21A1DED90035AF18 /* PortfolioCell.swift */; };
+		BFC06045217EF14D005AF531 /* StockTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC06044217EF14D005AF531 /* StockTableViewController.swift */; };
+		BFC06047217EF214005AF531 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC06046217EF214005AF531 /* Stock.swift */; };
+		BFC0604D217F9DCA005AF531 /* stockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0604C217F9DCA005AF531 /* stockTableViewCell.swift */; };
+		BFE342B921912136000D4945 /* NewsCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE342B821912136000D4945 /* NewsCellTableViewCell.swift */; };
+		BFE342BB21912165000D4945 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE342BA21912165000D4945 /* NewsCell.swift */; };
+		BFFBB5DC21AE21760098E595 /* LeaderboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFBB5DB21AE21760098E595 /* LeaderboardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +58,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B3CC465EC4B4B3CCE6CD043B /* Pods_Stocks_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stocks_Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0E21B9218EC23300553490 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		BF0E21BD218F696D00553490 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		BF338C25219A5E62000DFB23 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		BF59614021ADC11600855A91 /* portfolioIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portfolioIcon.png; sourceTree = SOURCE_ROOT; };
+		BF59614221ADC7CA00855A91 /* growthIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = growthIcon.png; sourceTree = SOURCE_ROOT; };
+		BF59614721ADCA7C00855A91 /* tropyIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tropyIcon.png; sourceTree = SOURCE_ROOT; };
+		BF59614B21AE208200855A91 /* LeaderBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardViewController.swift; sourceTree = "<group>"; };
 		BF78E63F217D71EA002A1409 /* Stocks-Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stocks-Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF78E642217D71EA002A1409 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF78E644217D71EA002A1409 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF78E647217D71EA002A1409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF78E649217D71EA002A1409 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF78E64C217D71EA002A1409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +78,27 @@
 		BF78E65E217D71EB002A1409 /* Stocks-GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stocks-GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF78E662217D71EB002A1409 /* Stocks_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks_GameUITests.swift; sourceTree = "<group>"; };
 		BF78E664217D71EB002A1409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF78E670217D7478002A1409 /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
+		BF80D9EC21AC803D001B30E1 /* decrease.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = decrease.png; path = ../decrease.png; sourceTree = "<group>"; };
+		BF80D9F021AC8350001B30E1 /* increase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = increase.png; path = ../increase.png; sourceTree = "<group>"; };
+		BF80D9F521ACD7A3001B30E1 /* search.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = search.jpg; sourceTree = "<group>"; };
+		BF853A1021926DFD0061D819 /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
+		BF853A1221941D8E0061D819 /* Stocks-Game.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Stocks-Game.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		BF853A1621941DC90061D819 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BF904770219A86B10027C810 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BF904774219BAC9E0027C810 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		BF904776219D50CB0027C810 /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		BF954645219E7CBF0035AF18 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		BF954647219EC47C0035AF18 /* PortfolioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioViewController.swift; sourceTree = "<group>"; };
+		BF95464B21A1DED90035AF18 /* PortfolioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCell.swift; sourceTree = "<group>"; };
+		BFC06044217EF14D005AF531 /* StockTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTableViewController.swift; sourceTree = "<group>"; };
+		BFC06046217EF214005AF531 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		BFC0604C217F9DCA005AF531 /* stockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stockTableViewCell.swift; sourceTree = "<group>"; };
+		BFE342B821912136000D4945 /* NewsCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCellTableViewCell.swift; sourceTree = "<group>"; };
+		BFE342BA21912165000D4945 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		BFFBB5DB21AE21760098E595 /* LeaderboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardCell.swift; sourceTree = "<group>"; };
+		C32FFE6A1590BCDF00FD5B4D /* Pods-Stocks-Game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stocks-Game.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stocks-Game/Pods-Stocks-Game.debug.xcconfig"; sourceTree = "<group>"; };
+		E74802827BA0A52B7A5033DC /* Pods-Stocks-Game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stocks-Game.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stocks-Game/Pods-Stocks-Game.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				874B7AAE31FFC609E6B34353 /* Pods_Stocks_Game.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +127,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4613D9050633DF464766FE8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C32FFE6A1590BCDF00FD5B4D /* Pods-Stocks-Game.debug.xcconfig */,
+				E74802827BA0A52B7A5033DC /* Pods-Stocks-Game.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE76A293EDAE9482878072A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3CC465EC4B4B3CCE6CD043B /* Pods_Stocks_Game.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF0E21BF218F697300553490 /* Stock Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF78E670217D7478002A1409 /* StockViewController.swift */,
+				BF0E21B9218EC23300553490 /* DataViewController.swift */,
+				BF0E21BD218F696D00553490 /* NewsViewController.swift */,
+				BF95464B21A1DED90035AF18 /* PortfolioCell.swift */,
+				BFE342BA21912165000D4945 /* NewsCell.swift */,
+				BF853A1021926DFD0061D819 /* ArticleViewController.swift */,
+				BF904774219BAC9E0027C810 /* BuyViewController.swift */,
+				BFFBB5DB21AE21760098E595 /* LeaderboardCell.swift */,
+			);
+			path = "Stock Views";
+			sourceTree = "<group>";
+		};
+		BF1D50F1217E224F00637D1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF904776219D50CB0027C810 /* CurrentUser.swift */,
+				BF954645219E7CBF0035AF18 /* Util.swift */,
+				BFC06046217EF214005AF531 /* Stock.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BF78E636217D71EA002A1409 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +176,8 @@
 				BF78E656217D71EB002A1409 /* Stocks-GameTests */,
 				BF78E661217D71EB002A1409 /* Stocks-GameUITests */,
 				BF78E640217D71EA002A1409 /* Products */,
+				4613D9050633DF464766FE8B /* Pods */,
+				BE76A293EDAE9482878072A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +194,20 @@
 		BF78E641217D71EA002A1409 /* Stocks-Game */ = {
 			isa = PBXGroup;
 			children = (
+				BF853A1621941DC90061D819 /* GoogleService-Info.plist */,
+				BF853A1221941D8E0061D819 /* Stocks-Game.xcodeproj */,
 				BF78E642217D71EA002A1409 /* AppDelegate.swift */,
-				BF78E644217D71EA002A1409 /* ViewController.swift */,
+				BF1D50F1217E224F00637D1A /* Model */,
+				BF78E672217D7489002A1409 /* View */,
 				BF78E646217D71EA002A1409 /* Main.storyboard */,
+				BF78E673217D74A7002A1409 /* Controller */,
 				BF78E649217D71EA002A1409 /* Assets.xcassets */,
+				BF59614221ADC7CA00855A91 /* growthIcon.png */,
+				BF59614721ADCA7C00855A91 /* tropyIcon.png */,
+				BF59614021ADC11600855A91 /* portfolioIcon.png */,
+				BF80D9F521ACD7A3001B30E1 /* search.jpg */,
+				BF80D9EC21AC803D001B30E1 /* decrease.png */,
+				BF80D9F021AC8350001B30E1 /* increase.png */,
 				BF78E64B217D71EA002A1409 /* LaunchScreen.storyboard */,
 				BF78E64E217D71EA002A1409 /* Info.plist */,
 			);
@@ -125,6 +232,43 @@
 			path = "Stocks-GameUITests";
 			sourceTree = "<group>";
 		};
+		BF78E672217D7489002A1409 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFE342B821912136000D4945 /* NewsCellTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF78E673217D74A7002A1409 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF904770219A86B10027C810 /* SignUpViewController.swift */,
+				BF338C25219A5E62000DFB23 /* LogInViewController.swift */,
+				BF954647219EC47C0035AF18 /* PortfolioViewController.swift */,
+				BFC06044217EF14D005AF531 /* StockTableViewController.swift */,
+				BF59614B21AE208200855A91 /* LeaderBoardViewController.swift */,
+				BF0E21BF218F697300553490 /* Stock Views */,
+				BFC0604E217F9DD1005AF531 /* Cell */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF853A1321941D8E0061D819 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC0604E217F9DD1005AF531 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0604C217F9DCA005AF531 /* stockTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF78E667217D71EB002A1409 /* Build configuration list for PBXNativeTarget "Stocks-Game" */;
 			buildPhases = (
+				633C44A880096BD05F36F52C /* [CP] Check Pods Manifest.lock */,
 				BF78E63B217D71EA002A1409 /* Sources */,
 				BF78E63C217D71EA002A1409 /* Frameworks */,
 				BF78E63D217D71EA002A1409 /* Resources */,
+				C7D6745C7CAD4429B72E2C3F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +361,12 @@
 			mainGroup = BF78E636217D71EA002A1409;
 			productRefGroup = BF78E640217D71EA002A1409 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BF853A1321941D8E0061D819 /* Products */;
+					ProjectRef = BF853A1221941D8E0061D819 /* Stocks-Game.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				BF78E63E217D71EA002A1409 /* Stocks-Game */,
@@ -230,8 +382,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF78E64D217D71EA002A1409 /* LaunchScreen.storyboard in Resources */,
+				BF59614821ADCA7D00855A91 /* tropyIcon.png in Resources */,
+				BF80D9EE21AC803E001B30E1 /* decrease.png in Resources */,
+				BF853A1721941DC90061D819 /* GoogleService-Info.plist in Resources */,
+				BF59614121ADC11600855A91 /* portfolioIcon.png in Resources */,
 				BF78E64A217D71EA002A1409 /* Assets.xcassets in Resources */,
+				BF59614321ADC7CA00855A91 /* growthIcon.png in Resources */,
 				BF78E648217D71EA002A1409 /* Main.storyboard in Resources */,
+				BF80D9F121AC8350001B30E1 /* increase.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +409,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		633C44A880096BD05F36F52C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stocks-Game-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7D6745C7CAD4429B72E2C3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Stocks-Game/Pods-Stocks-Game-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stocks-Game/Pods-Stocks-Game-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF78E63B217D71EA002A1409 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF78E645217D71EA002A1409 /* ViewController.swift in Sources */,
+				BFC0604D217F9DCA005AF531 /* stockTableViewCell.swift in Sources */,
+				BFE342BB21912165000D4945 /* NewsCell.swift in Sources */,
+				BF338C26219A5E62000DFB23 /* LogInViewController.swift in Sources */,
+				BFC06045217EF14D005AF531 /* StockTableViewController.swift in Sources */,
+				BF59614C21AE208200855A91 /* LeaderBoardViewController.swift in Sources */,
+				BFC06047217EF214005AF531 /* Stock.swift in Sources */,
+				BF954648219EC47C0035AF18 /* PortfolioViewController.swift in Sources */,
 				BF78E643217D71EA002A1409 /* AppDelegate.swift in Sources */,
+				BF904771219A86B10027C810 /* SignUpViewController.swift in Sources */,
+				BF95464C21A1DED90035AF18 /* PortfolioCell.swift in Sources */,
+				BF954646219E7CBF0035AF18 /* Util.swift in Sources */,
+				BF0E21BA218EC23300553490 /* DataViewController.swift in Sources */,
+				BF78E671217D7478002A1409 /* StockViewController.swift in Sources */,
+				BFFBB5DC21AE21760098E595 /* LeaderboardCell.swift in Sources */,
+				BF853A1121926DFD0061D819 /* ArticleViewController.swift in Sources */,
+				BFE342B921912136000D4945 /* NewsCellTableViewCell.swift in Sources */,
+				BF904775219BAC9E0027C810 /* BuyViewController.swift in Sources */,
+				BF904777219D50CB0027C810 /* CurrentUser.swift in Sources */,
+				BF0E21BE218F696D00553490 /* NewsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +650,7 @@
 		};
 		BF78E668217D71EB002A1409 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C32FFE6A1590BCDF00FD5B4D /* Pods-Stocks-Game.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -436,7 +659,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ak.Stocks-Game";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ak.StocksGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,6 +668,7 @@
 		};
 		BF78E669217D71EB002A1409 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E74802827BA0A52B7A5033DC /* Pods-Stocks-Game.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,7 +677,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ak.Stocks-Game";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ak.StocksGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
