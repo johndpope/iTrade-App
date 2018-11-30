@@ -18,6 +18,7 @@ class LeaderBoardViewController: UIViewController, UITableViewDelegate, UITableV
     @IBOutlet var myTableView: UITableView!
     var userChangeList: [String:Double] = [:]
     var leaderboardList: [String] = []
+    var currentUser: CurrentUser? = nil
     
     let dbRef = Database.database().reference()
     
@@ -32,6 +33,11 @@ class LeaderBoardViewController: UIViewController, UITableViewDelegate, UITableV
             
             self.myTableView.reloadData()
         }
+        
+        self.myTableView.layer.cornerRadius = 14
+        self.myTableView.layer.masksToBounds = true
+        self.myTableView.layer.borderColor = UIColor( red: 250/255, green: 250/255, blue:250/255, alpha: 1.0 ).cgColor
+        self.myTableView.layer.borderWidth = 2.0
         // Do any additional setup after loading the view.
     }
     
@@ -50,9 +56,10 @@ class LeaderBoardViewController: UIViewController, UITableViewDelegate, UITableV
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "LeaderboardCell", for: indexPath) as? LeaderboardCell{
-            cell.usernameLabel.text = self.leaderboardList[indexPath.row]
+            var username = self.leaderboardList[indexPath.row]
+            cell.usernameLabel.text = username
             cell.rankLabel.text = String(indexPath.row + 1) + "."
-            cell.changeLabel.text = percentFormat(value: self.userChangeList[self.leaderboardList[indexPath.row]]!)
+            cell.changeLabel.text = percentFormat(value: self.userChangeList[username]!)
             
             if (indexPath.row % 2 == 0){
                 let color = UIColor.white
@@ -62,13 +69,17 @@ class LeaderBoardViewController: UIViewController, UITableViewDelegate, UITableV
                 cell.backgroundColor = color
             }
             
+            if username == self.currentUser?.name{
+                cell.backgroundColor = UIColor(red: 135/266, green: 206/255, blue: 250/255, alpha: 1.0)
+            }
+            
             return cell
         }
         return UITableViewCell()
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 65
+        return 55
         
     }
     

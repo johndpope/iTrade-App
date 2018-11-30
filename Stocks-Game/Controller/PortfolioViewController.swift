@@ -20,6 +20,8 @@ class PortfolioViewController: UIViewController, UITableViewDelegate, UITableVie
     @IBOutlet var overallChangeLabel: UILabel!
     @IBOutlet var overallPercentLabel: UILabel!
     @IBOutlet var overallChangeIcon: UIImageView!
+    @IBOutlet var portfolioValueLabel: UILabel!
+    @IBOutlet var buyingPowerLabel: UILabel!
     
     var selectedStock: String = ""
     var sortedKeys: [String] = []
@@ -31,12 +33,23 @@ class PortfolioViewController: UIViewController, UITableViewDelegate, UITableVie
         self.stocksTableView.delegate = self
         self.stocksTableView.dataSource = self
         
+        self.stocksTableView.layer.cornerRadius = 14
+        self.stocksTableView.layer.masksToBounds = true
+        
+        self.stocksTableView.layer.borderColor = UIColor( red: 250/255, green: 250/255, blue:250/255, alpha: 1.0 ).cgColor
+        self.stocksTableView.layer.borderWidth = 2.0
+        
         self.sortedKeys = (self.currentUser?.getOrderedList().sorted(by: <))!
         
         self.currentUser?.getStockData{ success in
             guard success else { return }
             let currentWorth: Double = (self.currentUser?.currentWorth())!
+            let buyingPower: Double = (self.currentUser?.balance)!
+            let portfolioValue: Double = (self.currentUser?.portfolioValue())!
+            
             self.balanceLabel.text = currencyFormat(value: currentWorth)
+            self.buyingPowerLabel.text = currencyFormat(value: buyingPower)
+            self.portfolioValueLabel.text = currencyFormat(value: portfolioValue)
             
             let increaseIcon: UIImage = UIImage(named: "increase.png")!
             let decreaseIcon: UIImage = UIImage(named: "decrease.png")!
@@ -44,7 +57,7 @@ class PortfolioViewController: UIViewController, UITableViewDelegate, UITableVie
             let dayOpenWorth: Double = (self.currentUser?.dayOpenWorth())!
             let dayChange: Double = currentWorth - dayOpenWorth
             self.dayChangeLabel.text = currencyFormat(value: dayChange)
-            self.dayPercentLabel.text = percentFormat(value: getPercentage(value: dayOpenWorth, change: dayChange))
+            self.dayPercentLabel.text = "("+percentFormat(value: getPercentage(value: dayOpenWorth, change: dayChange))+")"
             if dayChange < 0.0{
                 self.dayChangeIcon.image = decreaseIcon
             }else{
@@ -55,7 +68,7 @@ class PortfolioViewController: UIViewController, UITableViewDelegate, UITableVie
             let overallChange: Double = currentWorth - initialWorth
             let overallChangePercent: Double = getPercentage(value: initialWorth, change: overallChange)
             self.overallChangeLabel.text = currencyFormat(value: overallChange)
-            self.overallPercentLabel.text = percentFormat(value: overallChangePercent)
+            self.overallPercentLabel.text = "("+percentFormat(value: overallChangePercent)+")"
             if overallChange < 0.0{
                 self.overallChangeIcon.image = decreaseIcon
             }else{
@@ -90,7 +103,7 @@ class PortfolioViewController: UIViewController, UITableViewDelegate, UITableVie
             if !(self.currentUser?.stockData.isEmpty)! {
                 let stockData = self.currentUser?.stockData[stockSymbol] as! [String:Any]
                 let value = stockData["latestPrice"] as! Double
-                pCell.valueLabel.text = currencyFormat(value: value)
+                pCell.valueLabel.text = currencyFormat(value: value * Double(numShares))
             }
             
             return pCell
@@ -120,5 +133,6 @@ class PortfolioViewController: UIViewController, UITableViewDelegate, UITableVie
             dest.currentUser = self.currentUser
         }
     }
+    
 
 }

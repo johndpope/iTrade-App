@@ -99,10 +99,6 @@ class CurrentUser {
                 self.history = value!["history"] as! [String:[String:Any]]?
                 self.name = value!["name"] as! String
             
-                if self.name != (Auth.auth().currentUser?.displayName as String?)!{
-                    let hi = true
-                }
-            
                 if !self.history.keys.contains(getDate()){
                     var todayData: [String : Any] = ["balance": self.balance, "stocks": self.stocks ]
                     if self.stocks == nil{
@@ -185,7 +181,12 @@ class CurrentUser {
     }
     
     func currentWorth() -> Double{
-        var worth = self.balance as! Double
+        let balance = self.balance as! Double
+        return balance + self.portfolioValue()
+    }
+    
+    func portfolioValue() -> Double{
+        var worth = 0.0
         for symbol in self.stocks.keys{
             let stockData = self.stockData[symbol] as! [String:Any]
             let value = stockData["latestPrice"] as! Double

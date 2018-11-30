@@ -1,20 +1,19 @@
 //
-//  NewsCell.swift
+//  stockExploreCell.swift
 //  Stocks-Game
 //
-//  Created by Fatih Ak on 11/5/18.
+//  Created by Fatih Ak on 11/29/18.
 //  Copyright © 2018 Fatih Ak. All rights reserved.
 //
 
 import UIKit
 
-class NewsCell: UITableViewCell {
+class stockExploreCell: UITableViewCell {
 
-    @IBOutlet var newsImage: UIImageView!
-    @IBOutlet var headLineLabel: UILabel!
+    @IBOutlet var stockSymbolLabel: UILabel!
     
-    let news: [String: Any] = [:]
-    
+    @IBOutlet var changeLabel: UILabel!
+    @IBOutlet var priceLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

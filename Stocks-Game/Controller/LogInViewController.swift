@@ -20,12 +20,29 @@ class LogInViewController: UIViewController, UITextFieldDelegate {
     var userPassword = ""
     
     override func viewDidLoad() {
+        
+        let statusBarView = UIApplication.shared.value(forKeyPath: "statusBarWindow.statusBar") as? UIView
+        let statusBarColor = UIColor(red: 21/255, green: 155/255, blue: 27/255, alpha: 1.0)
+        statusBarView?.backgroundColor = statusBarColor
+        
         super.viewDidLoad()
         
         self.emailTextField.delegate = self
         self.passwordTextField.delegate = self
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        let statusBarView = UIApplication.shared.value(forKeyPath: "statusBarWindow.statusBar") as? UIView
+        let statusBarColor = UIColor(red: 21/255, green: 155/255, blue: 27/255, alpha: 1.0)
+        statusBarView?.backgroundColor = statusBarColor
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        let statusBarView = UIApplication.shared.value(forKeyPath: "statusBarWindow.statusBar") as? UIView
+        let statusBarColor = UIColor.white.withAlphaComponent(0.0)
+        statusBarView?.backgroundColor = statusBarColor
     }
 
     @IBAction func logInPressed(_ sender: Any) {
@@ -86,6 +103,10 @@ class LogInViewController: UIViewController, UITextFieldDelegate {
             let exploreNavVC = tabVC.viewControllers![1] as! UINavigationController
             let explore = exploreNavVC.topViewController as! StockTableViewController
             explore.currentUser = self.currentUser
+            
+            let leaderNavVC = tabVC.viewControllers![2] as! UINavigationController
+            let leaderboard = leaderNavVC.topViewController as! LeaderBoardViewController
+            leaderboard.currentUser = self.currentUser
             
         }
     }

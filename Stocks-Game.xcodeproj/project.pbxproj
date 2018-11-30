@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		874B7AAE31FFC609E6B34353 /* Pods_Stocks_Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CC465EC4B4B3CCE6CD043B /* Pods_Stocks_Game.framework */; };
-		BF0E21BA218EC23300553490 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0E21B9218EC23300553490 /* DataViewController.swift */; };
 		BF0E21BE218F696D00553490 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0E21BD218F696D00553490 /* NewsViewController.swift */; };
+		BF14143C21B0B829007AF1DA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF14143B21B0B828007AF1DA /* Icon.png */; };
+		BF14144121B0BE16007AF1DA /* design.png in Resources */ = {isa = PBXBuildFile; fileRef = BF14144021B0BE16007AF1DA /* design.png */; };
 		BF338C26219A5E62000DFB23 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF338C25219A5E62000DFB23 /* LogInViewController.swift */; };
 		BF59614121ADC11600855A91 /* portfolioIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF59614021ADC11600855A91 /* portfolioIcon.png */; };
 		BF59614321ADC7CA00855A91 /* growthIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF59614221ADC7CA00855A91 /* growthIcon.png */; };
@@ -35,6 +36,7 @@
 		BFC06045217EF14D005AF531 /* StockTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC06044217EF14D005AF531 /* StockTableViewController.swift */; };
 		BFC06047217EF214005AF531 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC06046217EF214005AF531 /* Stock.swift */; };
 		BFC0604D217F9DCA005AF531 /* stockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0604C217F9DCA005AF531 /* stockTableViewCell.swift */; };
+		BFE2BA5921B05002002C9837 /* stockExploreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE2BA5821B05002002C9837 /* stockExploreCell.swift */; };
 		BFE342B921912136000D4945 /* NewsCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE342B821912136000D4945 /* NewsCellTableViewCell.swift */; };
 		BFE342BB21912165000D4945 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE342BA21912165000D4945 /* NewsCell.swift */; };
 		BFFBB5DC21AE21760098E595 /* LeaderboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFBB5DB21AE21760098E595 /* LeaderboardCell.swift */; };
@@ -59,8 +61,9 @@
 
 /* Begin PBXFileReference section */
 		B3CC465EC4B4B3CCE6CD043B /* Pods_Stocks_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stocks_Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF0E21B9218EC23300553490 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		BF0E21BD218F696D00553490 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		BF14143B21B0B828007AF1DA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
+		BF14144021B0BE16007AF1DA /* design.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = design.png; sourceTree = SOURCE_ROOT; };
 		BF338C25219A5E62000DFB23 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		BF59614021ADC11600855A91 /* portfolioIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portfolioIcon.png; sourceTree = SOURCE_ROOT; };
 		BF59614221ADC7CA00855A91 /* growthIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = growthIcon.png; sourceTree = SOURCE_ROOT; };
@@ -94,6 +97,7 @@
 		BFC06044217EF14D005AF531 /* StockTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTableViewController.swift; sourceTree = "<group>"; };
 		BFC06046217EF214005AF531 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 		BFC0604C217F9DCA005AF531 /* stockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stockTableViewCell.swift; sourceTree = "<group>"; };
+		BFE2BA5821B05002002C9837 /* stockExploreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stockExploreCell.swift; sourceTree = "<group>"; };
 		BFE342B821912136000D4945 /* NewsCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCellTableViewCell.swift; sourceTree = "<group>"; };
 		BFE342BA21912165000D4945 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		BFFBB5DB21AE21760098E595 /* LeaderboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardCell.swift; sourceTree = "<group>"; };
@@ -148,13 +152,9 @@
 			isa = PBXGroup;
 			children = (
 				BF78E670217D7478002A1409 /* StockViewController.swift */,
-				BF0E21B9218EC23300553490 /* DataViewController.swift */,
 				BF0E21BD218F696D00553490 /* NewsViewController.swift */,
-				BF95464B21A1DED90035AF18 /* PortfolioCell.swift */,
-				BFE342BA21912165000D4945 /* NewsCell.swift */,
 				BF853A1021926DFD0061D819 /* ArticleViewController.swift */,
 				BF904774219BAC9E0027C810 /* BuyViewController.swift */,
-				BFFBB5DB21AE21760098E595 /* LeaderboardCell.swift */,
 			);
 			path = "Stock Views";
 			sourceTree = "<group>";
@@ -202,6 +202,8 @@
 				BF78E646217D71EA002A1409 /* Main.storyboard */,
 				BF78E673217D74A7002A1409 /* Controller */,
 				BF78E649217D71EA002A1409 /* Assets.xcassets */,
+				BF14144021B0BE16007AF1DA /* design.png */,
+				BF14143B21B0B828007AF1DA /* Icon.png */,
 				BF59614221ADC7CA00855A91 /* growthIcon.png */,
 				BF59614721ADCA7C00855A91 /* tropyIcon.png */,
 				BF59614021ADC11600855A91 /* portfolioIcon.png */,
@@ -265,6 +267,10 @@
 			isa = PBXGroup;
 			children = (
 				BFC0604C217F9DCA005AF531 /* stockTableViewCell.swift */,
+				BF95464B21A1DED90035AF18 /* PortfolioCell.swift */,
+				BFE342BA21912165000D4945 /* NewsCell.swift */,
+				BFFBB5DB21AE21760098E595 /* LeaderboardCell.swift */,
+				BFE2BA5821B05002002C9837 /* stockExploreCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -383,8 +389,10 @@
 			files = (
 				BF78E64D217D71EA002A1409 /* LaunchScreen.storyboard in Resources */,
 				BF59614821ADCA7D00855A91 /* tropyIcon.png in Resources */,
+				BF14143C21B0B829007AF1DA /* Icon.png in Resources */,
 				BF80D9EE21AC803E001B30E1 /* decrease.png in Resources */,
 				BF853A1721941DC90061D819 /* GoogleService-Info.plist in Resources */,
+				BF14144121B0BE16007AF1DA /* design.png in Resources */,
 				BF59614121ADC11600855A91 /* portfolioIcon.png in Resources */,
 				BF78E64A217D71EA002A1409 /* Assets.xcassets in Resources */,
 				BF59614321ADC7CA00855A91 /* growthIcon.png in Resources */,
@@ -470,9 +478,9 @@
 				BF954648219EC47C0035AF18 /* PortfolioViewController.swift in Sources */,
 				BF78E643217D71EA002A1409 /* AppDelegate.swift in Sources */,
 				BF904771219A86B10027C810 /* SignUpViewController.swift in Sources */,
+				BFE2BA5921B05002002C9837 /* stockExploreCell.swift in Sources */,
 				BF95464C21A1DED90035AF18 /* PortfolioCell.swift in Sources */,
 				BF954646219E7CBF0035AF18 /* Util.swift in Sources */,
-				BF0E21BA218EC23300553490 /* DataViewController.swift in Sources */,
 				BF78E671217D7478002A1409 /* StockViewController.swift in Sources */,
 				BFFBB5DC21AE21760098E595 /* LeaderboardCell.swift in Sources */,
 				BF853A1121926DFD0061D819 /* ArticleViewController.swift in Sources */,

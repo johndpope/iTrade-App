@@ -85,10 +85,23 @@ class BuyViewController: UIViewController {
     }
     
     @IBAction func orderButtonPressed(_ sender: Any) {
-        if self.type == 0 && self.balance>0{
-            self.currentUser?.buyStock(symbol: self.stockSymbol, shares: Int(self.sliderObject.value), price: self.stockPrice)
-        }else if self.type == 1 && self.shares > 0 {
-            self.currentUser?.sellStock(symbol: self.stockSymbol, shares: Int(self.sliderObject.value), price: self.stockPrice)
+        if self.sliderObject.value != 0{
+            if self.type == 0 && self.balance>0{
+                self.currentUser?.buyStock(symbol: self.stockSymbol, shares: Int(self.sliderObject.value),  price: self.stockPrice)
+            }else if self.type == 1 && self.shares > 0 {
+                self.currentUser?.sellStock(symbol: self.stockSymbol, shares: Int(self.sliderObject.value), price: self.stockPrice)
+            }
+        
+            var action = ""
+            if self.type == 0{
+                action = "bought"
+            }else{
+                action = "sold"
+            }
+            let alertController = UIAlertController(title: "Order Completed", message: "You " + action + " " + String(self.sliderObject.value) + " shares of " + self.stockName + " for " + currencyFormat(value: self.stockPrice) + " per share." , preferredStyle: .alert)
+            let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: {_ in self.performSegue(withIdentifier: "unwindToStockView", sender: self)})
+            alertController.addAction(defaultAction)
+            self.present(alertController, animated: true, completion: nil)
         }
     }
     
