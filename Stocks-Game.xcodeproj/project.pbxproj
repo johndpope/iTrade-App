@@ -12,6 +12,7 @@
 		BF14143C21B0B829007AF1DA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF14143B21B0B828007AF1DA /* Icon.png */; };
 		BF14144121B0BE16007AF1DA /* design.png in Resources */ = {isa = PBXBuildFile; fileRef = BF14144021B0BE16007AF1DA /* design.png */; };
 		BF338C26219A5E62000DFB23 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF338C25219A5E62000DFB23 /* LogInViewController.swift */; };
+		BF424C4E21B97487004EB21B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF424C4D21B97486004EB21B /* GoogleService-Info.plist */; };
 		BF59614121ADC11600855A91 /* portfolioIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF59614021ADC11600855A91 /* portfolioIcon.png */; };
 		BF59614321ADC7CA00855A91 /* growthIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF59614221ADC7CA00855A91 /* growthIcon.png */; };
 		BF59614821ADCA7D00855A91 /* tropyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF59614721ADCA7C00855A91 /* tropyIcon.png */; };
@@ -26,7 +27,6 @@
 		BF80D9EE21AC803E001B30E1 /* decrease.png in Resources */ = {isa = PBXBuildFile; fileRef = BF80D9EC21AC803D001B30E1 /* decrease.png */; };
 		BF80D9F121AC8350001B30E1 /* increase.png in Resources */ = {isa = PBXBuildFile; fileRef = BF80D9F021AC8350001B30E1 /* increase.png */; };
 		BF853A1121926DFD0061D819 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF853A1021926DFD0061D819 /* ArticleViewController.swift */; };
-		BF853A1721941DC90061D819 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF853A1621941DC90061D819 /* GoogleService-Info.plist */; };
 		BF904771219A86B10027C810 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF904770219A86B10027C810 /* SignUpViewController.swift */; };
 		BF904775219BAC9E0027C810 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF904774219BAC9E0027C810 /* BuyViewController.swift */; };
 		BF904777219D50CB0027C810 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF904776219D50CB0027C810 /* CurrentUser.swift */; };
@@ -65,6 +65,7 @@
 		BF14143B21B0B828007AF1DA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
 		BF14144021B0BE16007AF1DA /* design.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = design.png; sourceTree = SOURCE_ROOT; };
 		BF338C25219A5E62000DFB23 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		BF424C4D21B97486004EB21B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		BF59614021ADC11600855A91 /* portfolioIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portfolioIcon.png; sourceTree = SOURCE_ROOT; };
 		BF59614221ADC7CA00855A91 /* growthIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = growthIcon.png; sourceTree = SOURCE_ROOT; };
 		BF59614721ADCA7C00855A91 /* tropyIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tropyIcon.png; sourceTree = SOURCE_ROOT; };
@@ -87,7 +88,6 @@
 		BF80D9F521ACD7A3001B30E1 /* search.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = search.jpg; sourceTree = "<group>"; };
 		BF853A1021926DFD0061D819 /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
 		BF853A1221941D8E0061D819 /* Stocks-Game.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Stocks-Game.xcodeproj"; sourceTree = SOURCE_ROOT; };
-		BF853A1621941DC90061D819 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BF904770219A86B10027C810 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		BF904774219BAC9E0027C810 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		BF904776219D50CB0027C810 /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
@@ -194,7 +194,7 @@
 		BF78E641217D71EA002A1409 /* Stocks-Game */ = {
 			isa = PBXGroup;
 			children = (
-				BF853A1621941DC90061D819 /* GoogleService-Info.plist */,
+				BF424C4D21B97486004EB21B /* GoogleService-Info.plist */,
 				BF853A1221941D8E0061D819 /* Stocks-Game.xcodeproj */,
 				BF78E642217D71EA002A1409 /* AppDelegate.swift */,
 				BF1D50F1217E224F00637D1A /* Model */,
@@ -391,7 +391,7 @@
 				BF59614821ADCA7D00855A91 /* tropyIcon.png in Resources */,
 				BF14143C21B0B829007AF1DA /* Icon.png in Resources */,
 				BF80D9EE21AC803E001B30E1 /* decrease.png in Resources */,
-				BF853A1721941DC90061D819 /* GoogleService-Info.plist in Resources */,
+				BF424C4E21B97487004EB21B /* GoogleService-Info.plist in Resources */,
 				BF14144121B0BE16007AF1DA /* design.png in Resources */,
 				BF59614121ADC11600855A91 /* portfolioIcon.png in Resources */,
 				BF78E64A217D71EA002A1409 /* Assets.xcassets in Resources */,
