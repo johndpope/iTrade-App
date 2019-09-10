@@ -121,8 +121,8 @@ class StockViewController: UIViewController, UITableViewDelegate, UITableViewDat
                 self.yieldLabel.text = percentFormat(value: self.data["dividendYield"] as! Double)
                 self.dividendLabel.text = currencyFormat(value: self.data["dividendRate"] as! Double)
             }
-        
-        let newsEndpoint: String = "https://newsapi.org/v2/everything?q=+" + self.symbol + "+stock&apiKey=" + "1392b13880be4dcba235362e54dfff27&language=en"
+        let apiKey: String = "1392b13880be4dcba235362e54dfff27"
+        let newsEndpoint: String = "https://newsapi.org/v2/everything?q=+" + self.symbol + "+stock&apiKey=" + apiKey + "&language=en"
         Alamofire.request(newsEndpoint)
             .responseJSON { response in
                 guard let json = response.result.value as? [String: Any] else {

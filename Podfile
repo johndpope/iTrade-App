@@ -6,7 +6,7 @@ target 'Stocks-Game' do
     pod 'Alamofire', '~> 4.7'
     pod 'Firebase/Core'
     pod 'Firebase/Core'
-    pod 'FirebaseAuth'
+    pod 'Firebase/Auth'
     pod 'FirebaseStorage'
     pod 'FirebaseDatabase'
 end
